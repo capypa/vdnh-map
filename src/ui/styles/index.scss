@@ -1,0 +1,29 @@
+// Vendors
+@use '~reset-css/sass/_reset';
+
+// Variables
+@use './variables' as *;
+
+// Fonts
+@use './fonts/Roboto';
+
+body {
+  font-size: 14px;
+  line-height: normal;
+  font-family: $preferred-font;
+
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// stylelint-disable-next-line
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: $preferred-font;
+}
